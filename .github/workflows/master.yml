@@ -32,6 +32,8 @@ jobs:
         with:
           java-version: "17"
           distribution: temurin
+      - name: Package
+        run: mvn clean package
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v1
