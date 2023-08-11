@@ -9,4 +9,4 @@ COPY target/inventory-management-0.0.1-SNAPSHOT.jar inventory-management-0.0.1-S
 EXPOSE 8080
 
 # Set the command to run the application when the container starts
-CMD ["java", "-jar", "inventory-management-0.0.1-SNAPSHOT"]
+CMD ["java", "-jar", "inventory-management-0.0.1-SNAPSHOT.jar"]
