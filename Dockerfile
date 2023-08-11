@@ -1,8 +1,6 @@
 # Use a base image with Java 11 installed
 FROM adoptopenjdk:11-jre-hotspot
 
-# Set the working directory in the container
-WORKDIR /app
 
 # Copy the JAR file into the container
 COPY target/inventory-management-0.0.1-SNAPSHOT.jar inventory-management-0.0.1-SNAPSHOT.jar
